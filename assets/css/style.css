@@ -215,4 +215,62 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-  
+  @media screen and (max-width: 980px){
+    h1 {
+      width: 33%;
+      margin: 0 auto;
+      left: 5%;
+  }
+
+
+  footer {
+      position: absolute;
+      bottom: -250px;
+      width: 100%;
+  }
+  }
+  @media screen and (max-width: 768px) {
+    html {
+      box-sizing: border-box;
+  }
+
+  header,
+  h1 {
+      position: absolute;
+  }
+
+  h1 {
+      width: 33%;
+      margin: 0 auto;
+      left: 5%;
+  }
+
+footer {
+      position: absolute;
+      bottom: -540px;
+      right: 0;
+      width: 100%;
+  }
+  }
+  @media screen and (max-width: 640px) { html {
+    box-sizing: border-box;
+}
+
+header,
+h1 {
+    position: absolute;
+    padding: 0;
+}
+
+h1 {
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: -530px;
+    width: 100%;
+}
+}
